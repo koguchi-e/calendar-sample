@@ -3,7 +3,7 @@ class EventsController < ApplicationController
     @events = Event.all
     respond_to do |format|
       format.html
-      format.json { render 'calender' }
+      format.json { render 'calendar' }
     end
   end
 end
